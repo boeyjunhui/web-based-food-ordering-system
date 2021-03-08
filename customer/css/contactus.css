@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: url("food2.jpg");
+    margin-bottom: 0px !important;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+#contactinfo
+  {
+    top: 40px;
+    width: 350px;
+    height: calc(100%-80px);
+    background: #0e8c99;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    margin-top: 200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+  }
+
+  #contactinfo h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#contactinfo .info {
+    position: relative;
+    margin: 10px 0;
+}
+
+#contactinfo .info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+#contactinfo .info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+
+#contactinfo .info li span:nth-child(1) {
+    max-width: 100%;
+    filter: invert(1);
+    opacity: 0.5;
+
+}
+
+#contactinfo .info li span:nth-child(2){
+    color: #fff;
+    margin-left:  10px;
+    font-weight: 300;
+    opacity: 0.5;
+}
+
+#contactinfo .info li:hover span:nth-child(1),
+#contactinfo .info li:hover span:nth-child(2){ 
+    opacity: 1;   
+}
+
+#contactForm {
+    opacity: 0.9;
+}
+
+
+#contactForm h2{
+    color: #207b8f;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+#contactForm .formBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px ; 
+    background: white;
+    margin-top: -400px;
+    padding-left: 200px;
+    margin-left: 200px;
+    margin-bottom: 120px;
+    padding-right: 50px;
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+   
+}
+
+#contactForm .formBox .inputBox {
+    position: relative;
+    margin:  0 0 35px 0;
+}
+
+#contactForm .formBox .inputBox input {
+    width: 100%;
+    padding:  5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #207b8f;
+}
+
+#contactForm .formBox .inputBox textarea {
+    width:  100%;
+    resize: none;
+}
+
+@media (max-width: 1000px) {
+    .rowcontent {   
+        flex-direction: column;
+        padding-left: 10%;
+        margin-top: -10%;
+    }
+
+    #contactinfo {
+        width: 90%;
+        margin-top: 100px;
+    }
+
+    #contactForm .formBox {
+    width: 90%;
+    margin-bottom:5px;
+    margin-top: 20px;
+    margin-left: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    }
+}
+
+   
+
+@media (max-width: 700px) {
+    .rowcontent {   
+        flex-direction: column;
+        padding-left: 10%;
+        margin-top: -10%;
+    }
+
+    #contactinfo {
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    #contactForm .formBox {
+    width: 80%;
+    margin-bottom:5px;
+    margin-top: 20px;
+    margin-left: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .rowcontent {   
+        flex-direction: column;
+        padding-left: 10%;
+        margin-top: -10%;
+
+    }
+    #contactinfo {
+        width: 80%;
+        margin-top: 100px;
+    }
+
+    #contactForm .formBox {
+    width: 80%;
+    margin-bottom:5px;
+    margin-top: 10%;
+    margin-left: -100px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 100px;
+    }
+}

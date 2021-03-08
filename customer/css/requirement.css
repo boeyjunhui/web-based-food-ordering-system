@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding: 0;
+  }
+
+
+#content1
+  {
+    height:20%;
+    width:100%;
+    margin-bottom:5px;
+    margin-top: 30px;
+    padding-left:20px;
+    padding-top:40px;
+    border-radius:5px;
+    border: 5px solid #16a3b7;
+  }
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    padding-left: 50px;
+}
+
+@media (max-width: 700px) {
+  #content1{
+      text-align: left;
+      margin-left: 0px;
+      padding-right: 20px;
+    
+      
+  }
+}
