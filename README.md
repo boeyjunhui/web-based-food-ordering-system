@@ -1,5 +1,5 @@
-# Online Food Ordering System
-The MyFoodWeyh Online Food Ordering System is a web application developed using HTML, CSS, JavaScript, PHP, and MySQL.
+# Web-Based Food Ordering System
+The MyFoodWeyh Web-Based Food Ordering System is a web application developed using HTML, CSS, JavaScript, PHP, and MySQL.
 
 <br>
 
